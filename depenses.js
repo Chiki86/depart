@@ -14,9 +14,10 @@ const budgetRestant = budget - totalDepenses; // Type : number ; unité : FCFA
 const budgetRespected = budgetRestant >= 0; // Type : boolean
 // TODO : affichez le rapport uniquement avec des littéraux de gabarit.
 console.log(`Rapport de dépenses à compléter pour ${nom}.`);
-console.log('transport : ' + transport + ' FCFA');
-console.log('alimentation : ' + alimentation + ' FCFA');
-console.log('loisirs : ' + loisirs + ' FCFA');
+console.log(`Budget initial : ${budget} FCFA`);
+console.log(`transport :  ${transport} FCFA`);
+console.log(`alimentation : ${alimentation} FCFA`);
+console.log(`loisirs : ${loisirs} FCFA`);
 console.log(`Total des dépenses : ${totalDepenses} FCFA`);
 console.log(`Budget restant : ${budgetRestant} FCFA`);
 console.log(`Budget respecté : ${budgetRespected ? 'true' : 'false'}`);
